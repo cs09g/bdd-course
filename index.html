@@ -19,7 +19,6 @@
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -37,8 +36,8 @@
 
 ###이론, 패턴 그리고 가이드라인
 
-<small>by Wojciech Zawistowski</small>
-<small>변역: cs09g</small>
+<small>by Wojciech Zawistowski</small><br>
+<small>번역: cs09g</small>
 
 ---
 
@@ -58,9 +57,9 @@
 
 ##e2e
 
-- treat system as a black box<br><small>(no "manual" DB reads / writes!)</small>
-- slow and harder to debug<br><small>(should test only main paths, not edge cases)</small>
-- goal: ensure correct "wiring"<br><small>(no mocks, production-like configuration)</small>
+- 시스템을 블랙박스와 같이 여긴다<br><small>("수동" DB 읽기 / 쓰기 안함!)</small>
+- 디버그가 느리고 어렵다<br><small>(엣지 케이스가 아닌, main path만 테스트해야 한다)</small>
+- 목표: 올바른 "배선"을 보장하기<br><small>(흉내 내기, 프로덕트같은 설정을 하지 않음)</small>
 
 ---
 
